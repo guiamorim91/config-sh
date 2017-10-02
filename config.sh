@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
 # Config
-black() { echo "$(tput setaf 0)$*$(tput setaf 9)"; }
-red() { echo "$(tput setaf 1)$*$(tput setaf 9)"; }
-green() { echo "$(tput setaf 2)$*$(tput setaf 9)"; }
-yellow() { echo "$(tput setaf 3)$*$(tput setaf 9)"; }
-blue() { echo "$(tput setaf 4)$*$(tput setaf 9)"; }
-magenta() { echo "$(tput setaf 5)$*$(tput setaf 9)"; }
-cyan() { echo "$(tput setaf 6)$*$(tput setaf 9)"; }
-white() { echo "$(tput setaf 7)$*$(tput setaf 9)"; }
+black() { echo "$(tput setaf 0)$*$(tput setaf 7)"; }
+red() { echo "$(tput setaf 1)$*$(tput setaf 7)"; }
+green() { echo "$(tput setaf 2)$*$(tput setaf 7)"; }
+yellow() { echo "$(tput setaf 3)$*$(tput setaf 7)"; }
+blue() { echo "$(tput setaf 4)$*$(tput setaf 7)"; }
+magenta() { echo "$(tput setaf 5)$*$(tput setaf 7)"; }
+cyan() { echo "$(tput setaf 6)$*$(tput setaf 7)"; }
+white() { echo "$(tput setaf 7)$*$(tput setaf 7)"; }
 
 # Atualização do sistema.
 blue "Iniciando configuração do ambiente";
-sudo apt-get update && sudo apt-get upgrade;
+sudo apt-get update;
 clear;
 
 # Varios
