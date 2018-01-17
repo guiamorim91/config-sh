@@ -27,6 +27,11 @@ sudo apt-get install -y nodejs;
 sudo apt-get install -y build-essential;
 clear;
 
+#Config Npm
+sudo mkdir ~/.npm-global;
+npm config set prefix '~/.npm-global';
+sudo echo 'export PATH=~/.npm-global/bin:$PATH' >> $HOME/.bashrc;
+
 # Google Chrome
 blue "Instalação do Google Chrome";
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
