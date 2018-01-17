@@ -93,8 +93,8 @@ sudo mkdir ~/phpstorm;
 cd ~/phpstorm;
 sudo rm -rf *.tar.gz ;
 clear;
-sudo wget https://download.jetbrains.com/webide/PhpStorm-2017.2.4.tar.gz;
-sudo tar -zxvf PhpStorm-2017.2.4.tar.gz;
+sudo wget https://download.jetbrains.com/webide/PhpStorm-2017.3.2.tar.gz;
+sudo tar -zxvf PhpStorm-2017.3.2.tar.gz;
 sudo chmod -Rv 777 ~/phpstorm;
 clear;
 
