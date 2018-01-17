@@ -71,7 +71,7 @@ sudo ln -s libclntsh.so.11.1 libclntsh.so;
 sudo ln -s libocci.so.11.1 libocci.so;
 red "Digite o seguinte texto quando solicitado: instantclient,/opt/instantclient_11_2";
 sudo pecl install oci8-2.0.12;
-echo "extension=oci8.so" | sudo tee -a /usr/local/zend/etc/php.ini;
+echo -e "\nextension=oci8.so" | sudo tee -a /usr/local/zend/etc/php.ini;
 sudo service apache2 restart;
 clear;
 
