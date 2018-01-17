@@ -17,7 +17,14 @@ clear;
 
 # Varios
 blue "Instalação de programas uteis.";
-sudo apt-get -y install curl git subversion npm nodejs nodejs-legacy python-software-properties autoconf;
+sudo apt-get -y install curl git subversion python-software-properties autoconf;
+clear;
+
+# NodeJS
+blue "NodeJS.";
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -;
+sudo apt-get install -y nodejs;
+sudo apt-get install -y build-essential;
 clear;
 
 # Google Chrome
